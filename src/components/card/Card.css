@@ -1,0 +1,47 @@
+.card_task {
+    height: 220px;
+    width: 240px;
+    border: 1px solid #d0d3d4;
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    padding: 12px;
+}
+
+.content_card, .btn_container {
+    display: flex;
+}
+
+.content_card {
+    flex-direction: column;
+}
+
+.card_task h1 {
+    font-size: 22px;
+    color: hsl(190, 95%, 30%);
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.card_task p {
+    color: #d0d3d4;
+    margin: 0 auto;
+}
+
+.btn_delete {
+    background: hsl(350, 95%, 30%);
+    width: 140px;
+    padding: 12px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    transition: 300ms all ease;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.btn_delete:hover {
+    cursor: pointer;
+    background: hsl(357, 70%, 70%);
+}

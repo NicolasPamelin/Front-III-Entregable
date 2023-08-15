@@ -1,0 +1,17 @@
+.section_task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_task p {
+    color: #d0d3d4;
+    font-weight: bold;
+}
+
+.task_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 20px 20px 20px;
+}

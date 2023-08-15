@@ -1,0 +1,78 @@
+.form {
+    height: 360px;
+    width: 340px;
+    border: 1px solid #d0d3d4;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.form h1 {
+    color: hsl(190, 95%, 30%);
+    margin: 0 auto;
+}
+
+.form h5 {
+    text-align: center;
+    color: #f00;
+    margin-top: 8px;
+}
+
+.container_input_form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+}
+
+.container_input_form input, .container_input_form textarea {
+    background: transparent;
+    padding: 8px 12px;
+    margin: 2px 4px;
+    border: none;
+    border: 1px solid #d0d3d4;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.container_input_form textarea {
+    height: 90px;
+    resize: none;
+}
+
+.container_input_form input::placeholder, .container_input_form textarea::placeholder {
+    color: #d0d3d4;
+    margin-left: 12px;
+}
+
+.container_input_form input::placeholder, .container_input_form textarea::placeholder {
+    outline: 1px solid #fff;
+}
+
+.container_input_form label {
+    position: relative;
+    left: 8px;
+}
+
+.label_form {
+    color: #d0d3d4;
+    font-weight: bold;
+}
+
+.btn_save {
+    background: hsl(190, 95%, 30%);
+    width: 140px;
+    padding: 12px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    transition: 300ms all ease;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.btn_save:hover {
+    cursor: pointer;
+    background: hsl(190, 70%, 70%);
+}
